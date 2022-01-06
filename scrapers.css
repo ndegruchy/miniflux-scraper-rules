@@ -4,6 +4,12 @@
 /* Ars Technica */
 .article-guts p, .article-guts > figure img, .article-guts h2, .intro-image > img
 
+/* BBC
+ * Special note: WHAT THE FUCK, BBC??
+ * Special rewrite needs: add_dynamic_image, add_image_title, use_noscript_figure_images
+ */
+ div[data-component="text-block"] p, div[data-component="image-block"] figure img
+
 /* Bleepingcomputer */
 .articleBody figure.image img, .articleBody > p
 
